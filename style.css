@@ -1,0 +1,204 @@
+nav{
+    display: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1.5;
+    text-align: right;
+
+}
+
+a{
+    margin: 5px 50px;
+    display: inline-block;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+   color: darkgreen;
+}
+
+*{
+    margin: 0;
+}
+.navigation{
+    background-color: green;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+
+}
+
+.logo img{
+    width: 110%;
+    height: 90px;
+    position: relative;
+    display: block;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+.first{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+.left-part{
+    height: 100%;
+    width: 30%;
+    text-transform: uppercase;
+}
+.right-part{
+    height: 100%;
+    width: 70%;
+    background-image: url(images/7up_featured.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play-btn{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-part img{
+    vertical-align: middle;
+    width: 100%;
+}
+.left-part h2{
+    color: #009e5f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -4px 0px 10px;
+}
+.explore{
+    color: #009e5f;
+    border: solid 3px #009e5f;
+    margin: 1% 9%;
+    position: absolute;
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: 900;
+    font-size: 25px;
+}
+.left-part.hover{
+    .explore{
+        background-color: #009e5f;
+        color: white;
+    }
+    transition: all 200ms ease;
+}
+.banner{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.content2{
+    position: absolute;
+   margin-top: 15%;
+   margin-left: 10%;
+   color: white; 
+}
+.content2 h1{
+    font-size: 66px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.content2 p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.content2 a{
+    text-decoration: none;
+    color:#009e5f;
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 3px #009e5f;
+    position: absolute;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cocktail{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    background-image: url(images/module_cocktail.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items:  center;
+    justify-content: center;
+    display: flex;
+    
+}
+ .text-over-img{
+    height: 40px;
+    display: inline-block;
+   background-color: #fe5887;
+   font-size: 27px;
+   text-transform: uppercase;
+   color: white;
+   padding: 19px 20px 18px;
+   font-weight: 900;
+
+   
+ }
+.cooking{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    background-image: url(images/module_cooking.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items:  center;
+    justify-content: center;
+    display: flex;
+
+}
+.text-over{
+    height: 40px;
+    display: inline-block;
+   background-color: hsla(174, 99%, 67%, 0.625);
+   font-size: 27px;
+   text-transform: uppercase;
+   color: white;
+   padding: 19px 20px 18px;
+   font-weight: 900;
+}
+.see-all{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    background-image: url(images/module_seeall.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items:  center;
+    justify-content: center;
+    display: flex; 
+}
+.text-over{
+   height: 40px;
+   display: inline-block;
+   background-color: hwb(309 35% 0% / 0.625);
+   font-size: 27px;
+   text-transform: uppercase;
+   color: white;
+   padding: 19px 20px 18px;
+   font-weight: 900;
+}
+   
+ 
+
+
