@@ -7,18 +7,19 @@ nav{
     text-decoration: none;
     line-height: 1.5;
     text-align: right;
+    z-index: 100;
 
 }
 
-a{
+.navigation nav a{
     margin: 5px 50px;
     display: inline-block;
     justify-content: space-between;
-    color: white;
+   color: #ffffff;
     font-weight: bold;
 }
 
-a:hover{
+.navigation nav a:hover{
    color: darkgreen;
 }
 
@@ -31,7 +32,7 @@ a:hover{
     height: 50px;
     width: 100%;
     position: fixed;
-
+    z-index: 100;
 }
 
 .logo img{
@@ -128,7 +129,7 @@ a:hover{
     position: absolute;
     background-color: white;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 900;
 }
 
 .cocktail{
@@ -141,7 +142,7 @@ a:hover{
     align-items:  center;
     justify-content: center;
     display: flex;
-    
+    background-attachment: fixed;
 }
  .text-over-img{
     height: 40px;
@@ -154,7 +155,7 @@ a:hover{
    font-weight: 900;
 
    
- }
+ }
 .cooking{
     width: 100%;
     height: 800px;
@@ -165,6 +166,7 @@ a:hover{
     align-items:  center;
     justify-content: center;
     display: flex;
+    background-attachment: fixed;
 
 }
 .text-over{
@@ -187,8 +189,43 @@ a:hover{
     align-items:  center;
     justify-content: center;
     display: flex; 
+    background-attachment: fixed;
 }
-.text-over{
+.text-over-2{
+    display: inline-block;
+     background-color:#c064ac;
+     font-size: 27px;
+     text-transform: uppercase;
+     color: white;
+     padding: 19px 20px 18px;
+     font-weight: 900;
+     opacity: 1;
+
+}
+
+
+.footer{
+    width: 100%;
+    height: 800px;
+    background-image: url(https://www.7up.com/images/footer-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end
+
+}
+.footer-1{
+    background-color: white;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.text-over-2{
    height: 40px;
    display: inline-block;
    background-color: hwb(309 35% 0% / 0.625);
@@ -198,7 +235,30 @@ a:hover{
    padding: 19px 20px 18px;
    font-weight: 900;
 }
-   
- 
-
-
+ .footer-nav ul{
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+}
+.footer-nav ul li{
+    padding: 0px 13px;
+    font-size: 15px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: #636363;
+    white-space:nowrap;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    
+}
+.social-media a{
+    font-size: 25px;
+}
+.credit{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
